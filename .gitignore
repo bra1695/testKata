@@ -1,0 +1,29 @@
+# Node.js (Vue.js Frontend)
+testkatavue/node_modules
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/
+
+
+# Symfony (Backend)
+kataSymfonyBackend/vendor/
+kataSymfonyBackend/var/
+kataSymfonyBackend/.env
+kataSymfonyBackend/.env.local
+kataSymfonyBackend/.env.test
+kataSymfonyBackend/.env.prod
+kataSymfonyBackend/.idea/
+kataSymfonyBackend/.vscode/
+kataSymfonyBackend/.phpunit.result.cache
+kataSymfonyBackend/public/bundles/
+kataSymfonyBackend/public/uploads/
