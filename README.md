@@ -52,18 +52,18 @@ this is a little brief for what i did in this project :
 
 1. As a customer, I want to see a list of products so that I can choose what to buy.
 
-`images/ProductImage.png`
+`https://res.cloudinary.com/dywtbqcl0/image/upload/v1728252654/uicavrgjfip9avhxw9lh.png`
 
 2. As a customer, I want to interact with a shopping cart to manage my product selections.
 
-`images/cartImage.png`
-`images/detailsProduct.png`
+`https://res.cloudinary.com/dywtbqcl0/image/upload/v1728252650/pkmiakm9reh4lmm20806.png`
+`https://res.cloudinary.com/dywtbqcl0/image/upload/v1728252651/slibpa8nhnecsxpixqji.png`
 
 3. Bonus
 
 - Add basic responsive design to ensure usability on both desktop and mobile
 
-`images/responsive.png`
+`https://res.cloudinary.com/dywtbqcl0/image/upload/v1728252653/jvn9s8422ivrlmqim1k3.png`
 
 
 
