@@ -26,27 +26,24 @@ git clone https://github.com/bra1695/testKata
 
 2. Go to the project folder
 3. Go to the kataSymfonyBackend folder
-4. Execute this commandes
-- npm install
-- composer install
-- symfony server:start --port=8001
-
+4. Execute this commande 
+- docker-compose up --build
 
 4. Go to the testkatavue folder
-5. Execute this commandes
-- npm install
-- npm run serve
+5. Execute this commande
+- docker-compose up --build
+
 
 # Implementation
 
 this is a little brief for what i did in this project :
 - add two api /api/products GET and POST for fetch and add Product
 - implement a responsive product filtering system in Vue.js which allows users to filter products by title and price range seamlessly
-- integrate a favorites feature to enable users to add products to their favorites and view them on a dedicated page, even after refreshing
+- integrate a cart feature to enable users to add products to their cart and view them on a dedicated page, even after refreshing
 -  Created a  product details view component that displays all relevant information when a user clicks on a product card
 - implement add product feature that allow user to add new product to our product list
 - implement add product feature that allow user to add new product to our product list
-- incorporated toast notifications to confirm actions such as adding products to favorites 
+- incorporated toast notifications to confirm actions such as adding products to cart 
 
 # User Stories
 

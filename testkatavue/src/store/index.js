@@ -36,7 +36,8 @@ export default createStore({
         async fetchProducts({ commit, state }) {  
             if (state.products.length === 0) {
                 try {
-                    const response = await axios.get('http://localhost:8002/api/products');
+                    const response = await axios.get('http://localhost:8080/api/products');
+                    console.log('my response ',response);
                     const products = response.data.products;
                     commit('SET_PRODUCTS', products);
                 } catch (error) {
@@ -46,7 +47,7 @@ export default createStore({
         },
         async addProduct({ commit }, product) {
             try {
-                const response = await axios.post('http://localhost:8002/api/products', product);      
+                const response = await axios.post('http://localhost:8080/api/products', product);      
                 const newProduct = {
                     ...product,   
                     id: response.data.id  
